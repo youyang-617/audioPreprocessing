@@ -180,7 +180,7 @@ class AudioProcessorView:
     """音频处理视图"""
     def __init__(self, master):
         self.master = master
-        self.master.title("音频处理工具")
+        self.master.title("音频前期处理工具")
         self.master.geometry("500x600")
         self.controller = AudioProcessorController(self)
         self.param_frames = {}
